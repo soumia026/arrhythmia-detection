@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arrhythmia-detection"
+version = "1.0.0"
+description = "Reproducible, subject-disjoint classification of extracted MIT-BIH heartbeat features"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy==2.2.6", "pandas==2.2.3", "scipy==1.16.1",
+  "scikit-learn==1.7.1", "matplotlib==3.10.5", "joblib==1.4.2"
+]
+
+[project.optional-dependencies]
+notebook = ["jupyterlab>=4,<5", "nbformat==5.10.4", "nbclient==0.10.0", "ipykernel>=6,<7"]
+
+[project.scripts]
+arrhythmia = "arrhythmia.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
