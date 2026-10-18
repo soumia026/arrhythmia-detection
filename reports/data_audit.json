@@ -1,0 +1,38 @@
+{
+  "rows": 97107,
+  "columns": 34,
+  "feature_count": 32,
+  "records": 44,
+  "subject_groups": 43,
+  "class_counts": {
+    "N": 90083,
+    "VEB": 7009,
+    "Q": 15
+  },
+  "missing_features": 0,
+  "duplicate_rows": 0,
+  "identical_feature_pairs": [
+    [
+      "0_pre-RR",
+      "1_pre-RR"
+    ],
+    [
+      "0_post-RR",
+      "1_post-RR"
+    ],
+    [
+      "0_qPeak",
+      "0_qrs_morph0"
+    ],
+    [
+      "1_qPeak",
+      "1_qrs_morph0"
+    ]
+  ],
+  "class_record_counts": {
+    "N": 44,
+    "Q": 5,
+    "VEB": 33
+  },
+  "csv_sha256": "0d5f9614bcfa5c09becf9f3cfdda1a6104093d01365a1f252dc7e9bc3b511fe2"
+}
